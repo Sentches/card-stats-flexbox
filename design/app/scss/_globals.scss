@@ -104,6 +104,26 @@ body {
         display: none;
     }
 
+    .attribution {
+        color: $main-paragraph;
+        font-family: 'Lexeda Deca', sans-serif;
+        font-size: 0.9rem;
+        letter-spacing: 0.6px;
+        text-align: center;
+        margin-bottom: 1rem;
+
+        a {
+            color: $accent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: $accent;
+            text-decoration: underline;
+            transition: 0.5s;
+        }
+    }
+
 @media (min-width: 900px) {
 
     * {
